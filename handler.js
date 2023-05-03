@@ -161,7 +161,7 @@ export async function handler(chatUpdate) {
                 autoread: false,
                 restrict: false, 
                 antiCall: false,
-                antiPrivate: false,
+                antiPrivate: true,
                 jadibotmd: true,
                 status: 0
             }
