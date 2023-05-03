@@ -3,20 +3,20 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['59822228462', 'NovaBot-MD', true],
-  ['593968585383'],
-  ['5214531173598'],
-  ['50763596565'],
-  ['5492266613038'],
-  ['522411347465'],
+  ['923080613785', 'NovaBot-MD', true],
+  ['923077900642'],
+  ['923484765816'],
+  ['923187028664'],
+  ['923436465128'],
+  ['923456408380'],
   ['5492266466080'],
   ['5214531106422']
 ] //Numeros de owner 
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
-global.mods = ['50495745934'] 
-global.prems = ['595986172767', '5493704555464']
+global.mods = ['923080613785'] 
+global.prems = ['923077900642', '923187028664']
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -55,8 +55,8 @@ global.imagen1 = ['./media/menu1.jpg']
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 // Sticker WM
-global.packname = 'NovaBot-MD'
-global.author = 'NovaBot-MD'
+global.packname = 'DevilBot-MD'
+global.author = 'DevilBot-MD'
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
