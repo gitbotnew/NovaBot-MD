@@ -8,7 +8,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 	let { title, description, thumbnail, videoId, timestamp, views, ago, url } = vid
 	//const url = 'https://www.youtube.com/watch?v=' + videoId
 	m.react('🎧')
-	let play = `╭───≪~*╌◌ᰱ•••⃙❨͟͞P̸͟͞L̸͟A̸͟͞Y̸͟͞❩⃘•••ᰱ◌╌*~*
+	let song = `╭───≪~*╌◌ᰱ•••⃙❨͟͞P̸͟͞L̸͟A̸͟͞Y̸͟͞❩⃘•••ᰱ◌╌*~*
 │║📌 *Título* : ${title}
 │║📆 *Publicado:* ${ago}
 │║⌚ *Duración:* ${timestamp}
@@ -21,9 +21,9 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
     ['VIDEO', `${usedPrefix}fgmp4 ${url}`]
   ], m, rpl)
 }
-handler.help = ['play']
+handler.help = ['song']
 handler.tags = ['downloader']
-handler.command = ['play', 'playvid']
+handler.command = ['song', 'playvid']
 
 handler.register = true
 export default handler
