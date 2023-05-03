@@ -3,7 +3,7 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['923080613785', 'NovaBot-MD', true],
+  ['923080613785', 'DevilBot-MD', true],
   ['923077900642'],
   ['923484765816'],
   ['923187028664'],
